@@ -6,5 +6,5 @@ Names = [
     ]
 
 print('Updated List:', Names)
-print(Names[5])
+print(Names[4])
 print(Names.count("Christopher"))
