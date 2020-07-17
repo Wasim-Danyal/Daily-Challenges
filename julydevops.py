@@ -5,6 +5,7 @@ Names = [
     "Steven","Diarmuid"
     ]
 
+Names.append("Luke")
 print('Updated List:', Names)
 print(Names[4])
 print(Names.count("Christopher"))
