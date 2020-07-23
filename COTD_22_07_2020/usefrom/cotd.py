@@ -1,5 +1,5 @@
 def challenge (thisset):
     set(thisset)
-    answer = " ".join(sorted(thisset))
+    bog = list(dict.fromkeys(thisset))
+    answer = " ".join(sorted(bog))
     return answer
-
