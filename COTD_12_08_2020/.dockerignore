@@ -1,0 +1,14 @@
+#Docker Write me up a .dockerignore file that will ignore:
+#- Any files ending in ".md"
+#- Any files in the directory called "src"
+#- Any files beginning with "foo" EXCEPT if they also end with "bar"
+#- Any files ending in ".txt" but only in directories that start with the letter "a"
+
+*.md
+
+src
+
+foo*
+!foo*bar
+
+a*/*.txt
